@@ -1,0 +1,136 @@
+.logo {
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    border: 10px;
+}
+
+.menu li {
+    background-color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+li:hover {
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+body {
+    background-color: rgb(198, 176, 118);
+    background-image: url(imágenes/elite-fitness-stoke-gym-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 1px 0 0;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    border: 2px solid aliceblue
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 10px;
+}
+
+img {
+    border: 2px solid black;
+}
+
+.imágen {
+    width: 40%;
+}
+
+h1 {
+    font-size: 5em;
+    color: aliceblue;
+}
+
+h2 {
+    font-size: 35px;
+    color: aliceblue;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-around;
+}
+
+iframe {
+    width: 40%;
+}
+
+.mapas {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.lista-redes {
+    list-style: none;
+}
+
+.redes {
+    width: 40px;
+}
+
+.contacto {
+    display: flex;
+    justify-content: end;
+}
+
+.container-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background-color: black;
+    padding: 30px;
+
+}
+
+.product-img {
+    width: 100%;
+    height: 70%;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+@media screen and (min-width: 600px) {
+   section img {
+       display: block;
+   }
+}

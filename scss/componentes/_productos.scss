@@ -1,0 +1,24 @@
+@import "base/colores";
+@import "base/listas";
+@import "base/variables";
+
+.container-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background-color: nth($colores, 2);
+    padding: 30px;
+
+    .product-img {
+        width: 100%;
+        height: 70%;
+    }
+
+    h3 {
+        color: nth($colores, 1);
+    }
+
+    h3 {
+        color: nth($colores, 1);
+    }
+}

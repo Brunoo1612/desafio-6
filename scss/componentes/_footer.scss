@@ -1,0 +1,16 @@
+@import "base/colores";
+@import "base/listas";
+@import "base/variables";
+
+.lista-redes {
+    list-style: none;
+
+    .redes {
+        width: 40px;
+    }
+}
+
+.contacto {
+    display: flex;
+    justify-content: end;
+}

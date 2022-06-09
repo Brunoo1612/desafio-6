@@ -1,0 +1,51 @@
+@import "base/colores";
+@import "base/listas";
+@import "base/variables";
+
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 10px;
+
+    .imágen {
+        width: 40%;
+    }
+
+    h1 {
+        font-size: nth($encabezados, 1);
+        color: nth($colores, 1);
+    }
+
+    @media screen and (min-width: 600px) {
+        section img {
+            display: block;
+        }
+     }
+}
+
+h2 {
+    font-size: nth($encabezados, 2);
+    color: nth($colores, 1);
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    color: nth($colores, 1);
+}
+
+.videos {
+    display: flex;
+    justify-content: space-around;
+
+    iframe {
+        width: 40%;
+    }
+}
+
+.mapas {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
